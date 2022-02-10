@@ -1,0 +1,86 @@
+{
+	"info": {
+		"_postman_id": "739120f6-f8b2-400f-b79b-acbf23c52dac",
+		"name": "Idea",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Search Feed by Keyword",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/search/nodejs",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"search",
+						"nodejs"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Search Feed by Keyword",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/search/nodejs",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"search",
+								"nodejs"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "11006"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"2afe-BESFrX7PUDxcz6vvclfhfnEx/II\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 10 Feb 2022 05:34:55 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"feed\": [\n        {\n            \"_id\": \"6204a21e949dd5d61731b6de\",\n            \"creator\": \"Bernard Bado\",\n            \"title\": \"9 VS Code Extensions You Need To Avoid\",\n            \"link\": \"https://javascript.plainenglish.io/9-vs-code-extensions-you-need-to-avoid-c26e3ae34009?source=rss------nodejs-5\",\n            \"categories\": [\n                \"programming\",\n                \"javascript\",\n                \"web-development\",\n                \"nodejs\",\n                \"python\"\n            ],\n            \"content\": \"<div class=\\\"medium-feed-item\\\"><p class=\\\"medium-feed-image\\\"><a href=\\\"https://javascript.plainenglish.io/9-vs-code-extensions-you-need-to-avoid-c26e3ae34009?source=rss------nodejs-5\\\"><img src=\\\"https://cdn-images-1.medium.com/max/1920/1*M_TK1zYNilDg-VMo5xPHaQ.jpeg\\\" width=\\\"1920\\\"></a></p><p class=\\\"medium-feed-snippet\\\">Stop Wasting Your Time With These</p><p class=\\\"medium-feed-link\\\"><a href=\\\"https://javascript.plainenglish.io/9-vs-code-extensions-you-need-to-avoid-c26e3ae34009?source=rss------nodejs-5\\\">Continue reading on JavaScript in Plain English »</a></p></div>\",\n            \"keyword\": \"nodejs\",\n            \"createdAt\": \"2022-02-10T05:26:54.980Z\",\n            \"updatedAt\": \"2022-02-10T05:26:54.980Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"6204a21e949dd5d61731b6dd\",\n            \"creator\": \"Derek Arends\",\n            \"title\": \"Creating a GraphQL Server With Node.js\",\n            \"link\": \"https://medium.com/neudesic-innovation/creating-a-graphql-server-with-node-js-fc0a7fb0e431?source=rss------nodejs-5\",\n            \"categories\": [\n                \"graphql\",\n                \"nodejs\"\n            ],\n            \"content\": \"<div class=\\\"medium-feed-item\\\"><p class=\\\"medium-feed-image\\\"><a href=\\\"https://medium.com/neudesic-innovation/creating-a-graphql-server-with-node-js-fc0a7fb0e431?source=rss------nodejs-5\\\"><img src=\\\"https://cdn-images-1.medium.com/max/2600/0*WY6jSgaoetc6bVDy\\\" width=\\\"5425\\\"></a></p><p class=\\\"medium-feed-snippet\\\">Are you looking for a server side API that can be used to describe all of your business needs, is easy to learn, and allows product to be&#x2026;</p><p class=\\\"medium-feed-link\\\"><a href=\\\"https://medium.com/neudesic-innovation/creating-a-graphql-server-with-node-js-fc0a7fb0e431?source=rss------nodejs-5\\\">Continue reading on Neudesic Innovation »</a></p></div>\",\n            \"keyword\": \"nodejs\",\n            \"createdAt\": \"2022-02-10T05:26:54.979Z\",\n            \"updatedAt\": \"2022-02-10T05:26:54.979Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"6204a21e949dd5d61731b6e0\",\n            \"creator\": \"Giovana N\",\n            \"title\": \"Testes com Jest — Meus aprendizados trabalhando pela primeira vez com Testes dentro do NodeJS\",\n            \"link\": \"https://medium.com/@giovana.np1/testes-com-jest-meus-aprendizados-trabalhando-pela-primeira-vez-com-testes-dentro-do-nodejs-5fbf5c3f00ca?source=rss------nodejs-5\",\n            \"categories\": [\n                \"jest\",\n                \"nodejs\",\n                \"teste\",\n                \"javascript\",\n                \"teste-de-software\"\n            ],\n            \"content\": \"<div class=\\\"medium-feed-item\\\"><p class=\\\"medium-feed-image\\\"><a href=\\\"https://medium.com/@giovana.np1/testes-com-jest-meus-aprendizados-trabalhando-pela-primeira-vez-com-testes-dentro-do-nodejs-5fbf5c3f00ca?source=rss------nodejs-5\\\"><img src=\\\"https://cdn-images-1.medium.com/max/1280/1*zmxKPGlKc0htHM4ro4sXLA.png\\\" width=\\\"1280\\\"></a></p><p class=\\\"medium-feed-snippet\\\">A Qualidade de Software sempre foi algo de bastante desafio para mim desde da &#xE9;poca que trabalhava com Java, desde a complexidade de&#x2026;</p><p class=\\\"medium-feed-link\\\"><a href=\\\"https://medium.com/@giovana.np1/testes-com-jest-meus-aprendizados-trabalhando-pela-primeira-vez-com-testes-dentro-do-nodejs-5fbf5c3f00ca?source=rss------nodejs-5\\\">Continue reading on Medium »</a></p></div>\",\n            \"keyword\": \"nodejs\",\n            \"createdAt\": \"2022-02-10T05:26:54.980Z\",\n            \"updatedAt\": \"2022-02-10T05:26:54.980Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"6204a21e949dd5d61731b6e1\",\n            \"creator\": \"Mateus Oliveira\",\n            \"title\": \"É o tal do MVC, mas com S\",\n            \"link\": \"https://mateusmlo.medium.com/%C3%A9-o-tal-do-mvc-mas-com-s-897b3a9135a9?source=rss------nodejs-5\",\n            \"categories\": [\n                \"programação\",\n                \"mvc\",\n                \"design-patterns\",\n                \"backend\",\n                \"nodejs\"\n            ],\n            \"content\": \"<div class=\\\"medium-feed-item\\\"><p class=\\\"medium-feed-image\\\"><a href=\\\"https://mateusmlo.medium.com/%C3%A9-o-tal-do-mvc-mas-com-s-897b3a9135a9?source=rss------nodejs-5\\\"><img src=\\\"https://cdn-images-1.medium.com/max/2600/0*MnMwHhKT1UIdGecN\\\" width=\\\"5917\\\"></a></p><p class=\\\"medium-feed-snippet\\\">Nem tanto sobre o &#x201C;V&#x201D;. Mas muita gente confunde sobre o que se trata a camada Service que anda popular por a&#xED;!</p><p class=\\\"medium-feed-link\\\"><a href=\\\"https://mateusmlo.medium.com/%C3%A9-o-tal-do-mvc-mas-com-s-897b3a9135a9?source=rss------nodejs-5\\\">Continue reading on Medium »</a></p></div>\",\n            \"keyword\": \"nodejs\",\n            \"createdAt\": \"2022-02-10T05:26:54.980Z\",\n            \"updatedAt\": \"2022-02-10T05:26:54.980Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"6204a21e949dd5d61731b6df\",\n            \"creator\": \"Syed Ali Haider\",\n            \"title\": \"Custom Checks In Github: A Probot Experience — Part 2\",\n            \"link\": \"https://medium.com/@syedahaider97/custom-checks-in-github-a-probot-experience-part-2-ecfac47f53ec?source=rss------nodejs-5\",\n            \"categories\": [\n                \"nodejs\",\n                \"github-checks\",\n                \"ci\",\n                \"github\",\n                \"probot\"\n            ],\n            \"content\": \"<div class=\\\"medium-feed-item\\\"><p class=\\\"medium-feed-image\\\"><a href=\\\"https://medium.com/@syedahaider97/custom-checks-in-github-a-probot-experience-part-2-ecfac47f53ec?source=rss------nodejs-5\\\"><img src=\\\"https://cdn-images-1.medium.com/max/2322/1*FwsCy3c6mysEuKwNYMRLqQ.png\\\" width=\\\"2322\\\"></a></p><p class=\\\"medium-feed-snippet\\\">Learn how to use Probot to create custom Github Checks.</p><p class=\\\"medium-feed-link\\\"><a href=\\\"https://medium.com/@syedahaider97/custom-checks-in-github-a-probot-experience-part-2-ecfac47f53ec?source=rss------nodejs-5\\\">Continue reading on Medium »</a></p></div>\",\n            \"keyword\": \"nodejs\",\n            \"createdAt\": \"2022-02-10T05:26:54.980Z\",\n            \"updatedAt\": \"2022-02-10T05:26:54.980Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"6204a21e949dd5d61731b6e3\",\n            \"creator\": \"Fatih Seyfullah Kılıç\",\n            \"title\": \"Serverless Framework-3 Local Deploy\",\n            \"link\": \"https://medium.com/@fskblog/serverless-framework-3-local-deploy-f6fbc0035c1b?source=rss------nodejs-5\",\n            \"categories\": [\n                \"microservices\",\n                \"offline\",\n                \"deployment\",\n                \"aws-lambda\",\n                \"nodejs\"\n            ],\n            \"content\": \"<div class=\\\"medium-feed-item\\\"><p class=\\\"medium-feed-image\\\"><a href=\\\"https://medium.com/@fskblog/serverless-framework-3-local-deploy-f6fbc0035c1b?source=rss------nodejs-5\\\"><img src=\\\"https://cdn-images-1.medium.com/max/958/1*PVTuqnWjb49q86Qst_xfAQ.png\\\" width=\\\"958\\\"></a></p><p class=\\\"medium-feed-snippet\\\">Servislerimizi serverless-offline eklentisini kullanarak bulut sa&#x11F;lay&#x131;c&#x131;ya deploy etmeden test edebiliriz. Kurulumu i&#xE7;in,</p><p class=\\\"medium-feed-link\\\"><a href=\\\"https://medium.com/@fskblog/serverless-framework-3-local-deploy-f6fbc0035c1b?source=rss------nodejs-5\\\">Continue reading on Medium »</a></p></div>\",\n            \"keyword\": \"nodejs\",\n            \"createdAt\": \"2022-02-10T05:26:54.980Z\",\n            \"updatedAt\": \"2022-02-10T05:26:54.980Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"6204a21e949dd5d61731b6e4\",\n            \"creator\": \"Fatih Seyfullah Kılıç\",\n            \"title\": \"Serverless Framework-2\",\n            \"link\": \"https://medium.com/@fskblog/serverless-framework-2-b9f85003d9f0?source=rss------nodejs-5\",\n            \"categories\": [\n                \"aws-lambda\",\n                \"nodejs\",\n                \"microservices\",\n                \"serverless-framework\",\n                \"deployment\"\n            ],\n            \"content\": \"<div class=\\\"medium-feed-item\\\"><p class=\\\"medium-feed-image\\\"><a href=\\\"https://medium.com/@fskblog/serverless-framework-2-b9f85003d9f0?source=rss------nodejs-5\\\"><img src=\\\"https://cdn-images-1.medium.com/max/1816/1*J-y722noZ3AyTlj0tCscaw.png\\\" width=\\\"1816\\\"></a></p><p class=\\\"medium-feed-snippet\\\">&#x15E;imdi mevcut projemize ikinci bir dosya ekleyelim ve bu dosya vas&#x131;tas&#x131;yla API Gateway konfig&#xFC;rasyonlar&#x131;n&#x131; serverless.yaml dosyam&#x131;za&#x2026;</p><p class=\\\"medium-feed-link\\\"><a href=\\\"https://medium.com/@fskblog/serverless-framework-2-b9f85003d9f0?source=rss------nodejs-5\\\">Continue reading on Medium »</a></p></div>\",\n            \"keyword\": \"nodejs\",\n            \"createdAt\": \"2022-02-10T05:26:54.980Z\",\n            \"updatedAt\": \"2022-02-10T05:26:54.980Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"6204a21e949dd5d61731b6e5\",\n            \"creator\": \"Fatih Seyfullah Kılıç\",\n            \"title\": \"Serverless Framework 1— Başlangıç\",\n            \"link\": \"https://medium.com/@fskblog/serverless-framework-1-ba%C5%9Flang%C4%B1%C3%A7-aeaf5aa5d352?source=rss------nodejs-5\",\n            \"categories\": [\n                \"cloudformation\",\n                \"nodejs\",\n                \"serverless-framework\",\n                \"deployment\",\n                \"aws-lambda\"\n            ],\n            \"content\": \"<div class=\\\"medium-feed-item\\\"><p class=\\\"medium-feed-image\\\"><a href=\\\"https://medium.com/@fskblog/serverless-framework-1-ba%C5%9Flang%C4%B1%C3%A7-aeaf5aa5d352?source=rss------nodejs-5\\\"><img src=\\\"https://cdn-images-1.medium.com/max/1892/1*H2TiV6qUtIy2RpjdK2jW8A.png\\\" width=\\\"1892\\\"></a></p><p class=\\\"medium-feed-snippet\\\">AWS lambda&#x2019;da nodejs yazaca&#x11F;&#x131;m&#x131;z&#x131; belirterek, a&#x15F;a&#x11F;&#x131;daki komutla projemizi olu&#x15F;turuyoruz ve klas&#xF6;re ge&#xE7;iyoruz.</p><p class=\\\"medium-feed-link\\\"><a href=\\\"https://medium.com/@fskblog/serverless-framework-1-ba%C5%9Flang%C4%B1%C3%A7-aeaf5aa5d352?source=rss------nodejs-5\\\">Continue reading on Medium »</a></p></div>\",\n            \"keyword\": \"nodejs\",\n            \"createdAt\": \"2022-02-10T05:26:54.980Z\",\n            \"updatedAt\": \"2022-02-10T05:26:54.980Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"6204a21e949dd5d61731b6e2\",\n            \"creator\": \"Swastik Mukherjee\",\n            \"title\": \"Docker Mini project : Containerize an amazing Node JS Portfolio App\",\n            \"link\": \"https://iamswastik.medium.com/docker-mini-project-containerize-an-amazing-node-js-portfolio-app-eca3aa277b8f?source=rss------nodejs-5\",\n            \"categories\": [\n                \"servers\",\n                \"docker\",\n                \"cloud-computing\",\n                \"nodejs\",\n                \"devops\"\n            ],\n            \"content\": \"<div class=\\\"medium-feed-item\\\"><p class=\\\"medium-feed-image\\\"><a href=\\\"https://iamswastik.medium.com/docker-mini-project-containerize-an-amazing-node-js-portfolio-app-eca3aa277b8f?source=rss------nodejs-5\\\"><img src=\\\"https://cdn-images-1.medium.com/max/1366/1*KfupXzc8bN0hq7knJm682Q.png\\\" width=\\\"1366\\\"></a></p><p class=\\\"medium-feed-snippet\\\">In this article we will be building a very simple yet amazing node js server app that serves your portfolio website with few lines of code&#x2026;</p><p class=\\\"medium-feed-link\\\"><a href=\\\"https://iamswastik.medium.com/docker-mini-project-containerize-an-amazing-node-js-portfolio-app-eca3aa277b8f?source=rss------nodejs-5\\\">Continue reading on Medium »</a></p></div>\",\n            \"keyword\": \"nodejs\",\n            \"createdAt\": \"2022-02-10T05:26:54.980Z\",\n            \"updatedAt\": \"2022-02-10T05:26:54.980Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"6204a21e949dd5d61731b6e6\",\n            \"creator\": \"Bartosz Wiśniewski\",\n            \"title\": \"Fix your Express error handling now\",\n            \"link\": \"https://medium.com/@pr0gramista/fix-your-express-error-handling-now-381ed1614f66?source=rss------nodejs-5\",\n            \"categories\": [\n                \"javascript\",\n                \"expressjs\",\n                \"nodejs\"\n            ],\n            \"content\": \"<div class=\\\"medium-feed-item\\\"><p class=\\\"medium-feed-image\\\"><a href=\\\"https://medium.com/@pr0gramista/fix-your-express-error-handling-now-381ed1614f66?source=rss------nodejs-5\\\"><img src=\\\"https://cdn-images-1.medium.com/max/1000/0*pqT0DNzDeUwMN9WJ.png\\\" width=\\\"1000\\\"></a></p><p class=\\\"medium-feed-snippet\\\">Express is probably one of the most influential packages in the Node.js world. It gave us an extremely easy-to-use interface for building&#x2026;</p><p class=\\\"medium-feed-link\\\"><a href=\\\"https://medium.com/@pr0gramista/fix-your-express-error-handling-now-381ed1614f66?source=rss------nodejs-5\\\">Continue reading on Medium »</a></p></div>\",\n            \"keyword\": \"nodejs\",\n            \"createdAt\": \"2022-02-10T05:26:54.980Z\",\n            \"updatedAt\": \"2022-02-10T05:26:54.980Z\",\n            \"__v\": 0\n        }\n    ]\n}"
+				}
+			]
+		}
+	]
+}

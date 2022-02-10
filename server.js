@@ -43,6 +43,7 @@ const writeData = (arr,keyword) =>{
 //routes
 app.get("/search/:keyword", async (req, res) => {
     try{
+        //pass keyword in params
         const keyword = req.params.keyword
         let checkKeyword = await Feed.find({keyword:keyword});
         if(checkKeyword.length){
